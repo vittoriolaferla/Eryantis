@@ -3,7 +3,7 @@
 ![alt text](src/main/resources/Graphical_Assets/Eriantys_slider.jpg)
 
 Implementation of the game table [Eriantys](https://www.craniocreations.it/prodotto/eriantys/).
-Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project presents a digital adaptation of Eriantys, developed as part of a bachelor's thesis. It features a comprehensive implementation that includes a graphical user interface (GUI), a command-line interface (CLI), and network capabilities through sockets, offering a full-fledged digital gaming experience.
+Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents.This digital version introduces a multiplayer online feature supporting up to three players, incorporates game-saving capabilities, and ensures resilience, allowing players to disconnect and reconnect without disrupting the game's continuity. Developed as part of a bachelor's thesis, this adaptation encompasses a detailed implementation that spans a graphical user interface (GUI), a command-line interface (CLI), and network functionalities via sockets, providing an immersive digital experience of Eriantys.
 
 **Teacher**: San Pietro Pierluigi
 
