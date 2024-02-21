@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" scaleShape="false" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.view.gui.controllers.GuiStartController">
+   <children>
+      <AnchorPane fx:id="scenePane" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <ImageView fitHeight="720.0" fitWidth="1280.0" opacity="0.9" pickOnBounds="true">
+               <image>
+                  <Image url="@../Graphical_Assets/Eriantys_slider.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="276.0" lineSpacing="1.0" opacity="0.7" text="Welcome to the magic world of . . ." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Book Antiqua Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="540.0" layoutY="515.0" mnemonicParsing="false" onKeyPressed="#onKeyPressed" onMouseClicked="#onClickEvent" prefHeight="35.0" prefWidth="200.0" text="NEXT">
+               <font>
+                  <Font name="Book Antiqua Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="449.0" layoutY="315.0" text="Eriantys" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua Bold" size="100.0" />
+               </font>
+            </Label>
+            <Text fx:id="connection" layoutX="318.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="643.7294921875">
+               <font>
+                  <Font size="57.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
