@@ -1,9 +1,9 @@
-# Prova Finale di Ingegneria del Software - AA 2021-2022
+# Eryantis - An Online Board Game
 
 ![alt text](src/main/resources/Graphical_Assets/Eriantys_slider.jpg)
 
 Implementation of the game table [Eriantys](https://www.craniocreations.it/prodotto/eriantys/).
-Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project is an implementation of Eriantys and it has been developed for the bachelor thesis, showcasing the development of a digital version of the game with a graphical user interface (GUI), command-line interface (CLI) and network capabilities via sockets.
+Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project presents a digital adaptation of Eriantys, developed as part of a bachelor's thesis. It features a comprehensive implementation that includes a graphical user interface (GUI), a command-line interface (CLI), and network capabilities through sockets, offering a full-fledged digital gaming experience.
 
 **Teacher**: San Pietro Pierluigi
 
@@ -63,3 +63,5 @@ java -jar AM29-server.jar
 - [_Umberto Colangelo_](https://github.com/umbertocolangelo)
 - [_Vittorio La Ferla_](https://github.com/vittoriolaferla)
 
+## Original repository:
+[Link](https://github.com/umbertocolangelo/ingsw2022-AM29)
