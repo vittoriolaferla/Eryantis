@@ -3,17 +3,18 @@
 ![alt text](src/main/resources/Graphical_Assets/Eriantys_slider.jpg)
 
 Implementation of the game table [Eriantys](https://www.craniocreations.it/prodotto/eriantys/).
-Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project is an implementation of Eriantys for the bachelor thesis, showcasing the development of a digital version complete with a graphical user interface (GUI), command-line interface (CLI) ans network capabilities via sockets.
+Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project is an implementation of Eriantys and it has been developed for the bachelor thesis, showcasing the development of a digital version of the game with a graphical user interface (GUI), command-line interface (CLI) and network capabilities via sockets.
 
-**Teacher** San Pietro Pierluigi
+**Teacher**: San Pietro Pierluigi
+
 **Final Score**: 30/30 cum laude
 
 ## Documentation
 
 ### UML
 
-- [UML Iniziale](deliveries/UML/UML_Iniziale/UML_Iniziale.jpg)
-- [UML FInale](deliveries/UML/UML_Final/FinalUML.png)
+- [Starting UML](deliveries/UML/UML_Iniziale/UML_Iniziale.jpg)
+- [Final UML](deliveries/UML/UML_Final/FinalUML.png)
 
 ## Functionality implemented
 
