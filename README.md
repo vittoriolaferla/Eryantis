@@ -29,10 +29,28 @@ Eriantys is a strategic board game created by Cranio Creations, where players co
 | Persistence     | 🟢 |
 # Running the Eriantys Game
 
-After downloading the JAR files, you can play Eriantys on your computer using either a Command-Line Interface (CLI) or a Graphical User Interface (GUI). Below are the steps to run the game in your preferred mode:
+Follow these steps to download, build, and run Eriantys on your computer. You can play Eriantys using either a Command-Line Interface (CLI) or a Graphical User Interface (GUI).
 
-## Prerequisites
-Before running the game, ensure you have Java installed on your computer. You need Java version 11 or higher. 
+## Step 1: Download the Repository
+First, you need to get the project files onto your computer.
+  ```shell
+  git clone https://github.com/vittoriolaferla/Eryantis/
+```
+## Step 2: Build the Project
+
+After downloading or cloning the repository, the next step is to build the project and create the JAR files.
+
+1. Open a terminal or command prompt.
+2. Navigate to the main directory of the project (the location where you cloned or unzipped the repository).
+
+   ```shell
+   cd Eriantis
+   ```
+1. Run the Maven build command:
+   ```shell
+   mvn package
+      ```
+This command will compile the project and generate JAR files, saving them in a newly created 'target' directory within the project's main directory.
 ## Running the Game
 Depending on your preference for the CLI or GUI version, follow the instructions below:
 ### CLI Version
@@ -62,6 +80,10 @@ java -jar AM29-server.jar
 - [_Roberto Cialini_](https://github.com/RobertoCialini)
 - [_Umberto Colangelo_](https://github.com/umbertocolangelo)
 - [_Vittorio La Ferla_](https://github.com/vittoriolaferla)
+
+## Screenshots
+[Screenshots](https://github.com/vittoriolaferla/Eryantis/tree/main/screenshots)
+
 
 ## Original repository:
 [Link](https://github.com/umbertocolangelo/ingsw2022-AM29)
