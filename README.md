@@ -3,6 +3,10 @@
 ![alt text](src/main/resources/Graphical_Assets/Eriantys_slider.jpg)
 
 Implementation of the game table [Eriantys](https://www.craniocreations.it/prodotto/eriantys/).
+Eriantys is a strategic board game created by Cranio Creations, where players compete to gain control over magical islands by deploying students, using professors' abilities, and leveraging unique character cards. The game features various elements such as magical creatures, islands to conquer, and special powers to outmaneuver opponents. This project is an implementation of Eriantys for the bachelor thesis, showcasing the development of a digital version complete with a graphical user interface (GUI), command-line interface (CLI) ans network capabilities via sockets.
+
+**Teacher** San Pietro Pierluigi
+**Final Score**: 30/30 cum laude
 
 ## Documentation
 
@@ -11,7 +15,7 @@ Implementation of the game table [Eriantys](https://www.craniocreations.it/prodo
 - [UML Iniziale](deliveries/UML/UML_Iniziale/UML_Iniziale.jpg)
 - [UML FInale](deliveries/UML/UML_Final/FinalUML.png)
 
-## Funzionanlità implementate
+## Functionality implemented
 
 | Functionality   |                       State                        |
 |:----------------|:--------------------------------------------------:|
@@ -22,26 +26,31 @@ Implementation of the game table [Eriantys](https://www.craniocreations.it/prodo
 | GUI             | 🟢 |
 | CLI             | 🟢 |
 | Persistence     | 🟢 |
+# Running the Eriantys Game
 
-### Jars
-After the download you can start the game with jars. To use the jars you must compile with maven , then the executable will be found under the directory target
-## JAR execution
-After the jar are compiled there are two different kinds of executable for the client side.
+After downloading the JAR files, you can play Eriantys on your computer using either a Command-Line Interface (CLI) or a Graphical User Interface (GUI). Below are the steps to run the game in your preferred mode:
 
-CLI
+## Prerequisites
+Before running the game, ensure you have Java installed on your computer. You need Java version 11 or higher. 
+## Running the Game
+Depending on your preference for the CLI or GUI version, follow the instructions below:
+### CLI Version
+Run the game using the command:
+   ```sh
+   java -jar AM29-clientCLI.jar
+   ```
+### GUI Version
+Run the game using the command:
 
-To run the game with CLI you must run AM29-clientCLI.jar
-
-GUI
-
-To run the game with Gui you must run the AM29-clientGUI.jar
-
-Server
-
-To run the server you must run AM29-server.jar
-### Test
-
-## Overall Coverage Summary
+   ```sh
+   java -jar AM29-clientGUI.jar
+   ```
+### Server
+Start the server with the command:
+ ```sh
+java -jar AM29-server.jar
+```
+## Overall Test Coverage Summary
 
 | Package     | Class % | Line % |
 |:------------|:--------|:------:|
@@ -52,3 +61,4 @@ To run the server you must run AM29-server.jar
 - [_Roberto Cialini_](https://github.com/RobertoCialini)
 - [_Umberto Colangelo_](https://github.com/umbertocolangelo)
 - [_Vittorio La Ferla_](https://github.com/vittoriolaferla)
+
