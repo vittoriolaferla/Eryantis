@@ -1,4 +1,4 @@
-# Eryantis - An Online Board Game
+# Eriantys - An Online Board Game
 
 ![alt text](src/main/resources/Graphical_Assets/Eriantys_slider.jpg)
 
